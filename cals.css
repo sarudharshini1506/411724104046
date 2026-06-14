@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cals{
+    background-color: brown;
+    padding: 20px;
+}
+.buttons-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+    margin-top: 20px;
+}
