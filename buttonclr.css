@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    transition: background-color 0.5s;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#redBtn {
+    background-color: rgb(241, 83, 83);
+}
+
+#greenBtn {
+    background-color: rgb(101, 217, 101);
+}
+
+#blueBtn {
+    background-color: rgb(96, 96, 227);
+}
+
+button:hover {
+    opacity: 0.8;
+}

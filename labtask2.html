@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blanchedalmond;
+            text-align: center;
+            padding: 30px;
+        }
+
+        button {
+            background-color: lightskyblue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color:lightpink;
+        }
+
+        #status {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: lightcoral;
+        }
+
+        .user {
+            background: white;
+            width: 400px;
+            margin: 15px auto;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px gray;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <button id="fetchBtn">Get Users</button>
+    <div id="status"></div>
+    <div id="users"></div>
+    <script src="labtask2.js"></script>
+</body>
+</html>
